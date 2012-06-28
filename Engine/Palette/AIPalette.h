@@ -36,6 +36,7 @@
 
 #include "Definitions.h"
 #include "../AI/AITypes.h"
+#include "AIPackageFactory.h"
 
 class ISILME_API AIPalette
 {

@@ -1,4 +1,4 @@
-﻿//  Copyright (C) 2010-2012 VSTU
+//  Copyright (C) 2010-2012 VSTU
 //
 //	This file is part of Isilme SDK.
 //
@@ -323,7 +323,7 @@ void	ParseWorld(LevelPtr level, TiXmlElement* rootElement)
 	const char* str = worldElement->Attribute("Gravity");
 	if (str)
 	{
-		sscanf_s(str, "%f, %f", &gravity.x, &gravity.y);
+		sscanf(str, "%f, %f", &gravity.x, &gravity.y);
 	}
 
 	level->GetWorld()->SetGravity(gravity);
